@@ -43,7 +43,8 @@
 (define-command lisp-highlight () ()
   (clear-highlight-overlays (current-buffer))
   (unless (syntax-space-char-p (character-at (current-point)))
-    (lisp-eval-async `(micros/walker:highlight ,(form-string-at-point (current-point))
+    ;; where is micros/walker:highlight?
+    #+nil(lisp-eval-async `(micros/walker:highlight ,(form-string-at-point (current-point))
                                                ',(compute-path-at-point (current-point))
                                                ,(buffer-package (current-buffer)))
                      (lambda (result)

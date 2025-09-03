@@ -1,0 +1,324 @@
+[submodule "submodules/lem-mailbox"]
+	path = submodules/lem-mailbox
+	url = https://github.com/lem-project/lem-mailbox.git
+[submodule "submodules/async-process"]
+	path = submodules/async-process
+	url = https://github.com/lem-project/async-process.git
+[submodule "submodules/sblint"]
+	path = submodules/sblint
+	url = https://github.com/cxxxr/sblint.git
+[submodule "submodules/rove"]
+	path = submodules/rove
+	url = https://github.com/fukamachi/rove.git
+[submodule "submodules/cl-sdl2"]
+	path = submodules/cl-sdl2
+	url = https://github.com/lem-project/cl-sdl2.git
+[submodule "submodules/cl-sdl2-ttf"]
+	path = submodules/cl-sdl2-ttf
+	url = https://github.com/lem-project/cl-sdl2-ttf.git
+[submodule "submodules/cl-sdl2-image"]
+	path = submodules/cl-sdl2-image
+	url = https://github.com/lem-project/cl-sdl2-image.git
+[submodule "submodules/jsonrpc"]
+	path = submodules/jsonrpc
+	url = https://github.com/cxxxr/jsonrpc.git
+[submodule "submodules/lem-extension-manager"]
+	path = submodules/lem-extension-manager
+	url = https://github.com/lem-project/lem-extension-manager.git
+[submodule "submodules/webview"]
+	path = submodules/webview
+	url = https://github.com/lem-project/webview.git
+[submodule "submodules/micros"]
+	path = submodules/micros
+	url = https://github.com/lem-project/micros.git
+[submodule "submodules/trivial-features"]
+	path = submodules/trivial-features
+	url = https://github.com/trivial-features/trivial-features.git
+[submodule "submodules/cffi"]
+	path = submodules/cffi
+	url = https://github.com/cffi/cffi.git
+[submodule "submodules/alexandria"]
+	path = submodules/alexandria
+	url = https://gitlab.common-lisp.net/alexandria/alexandria.git
+[submodule "submodules/babel"]
+	path = submodules/babel
+	url = https://github.com/cl-babel/babel.git
+[submodule "submodules/float-features"]
+	path = submodules/float-features
+	url = https://github.com/Shinmera/float-features.git
+[submodule "submodules/documentation-utils"]
+	path = submodules/documentation-utils
+	url = https://github.com/Shinmera/documentation-utils.git
+[submodule "submodules/trivial-indent"]
+	path = submodules/trivial-indent
+	url = https://github.com/Shinmera/trivial-indent.git
+[submodule "submodules/iterate"]
+	path = submodules/iterate
+	url = https://gitlab.common-lisp.net/iterate/iterate.git
+[submodule "submodules/closer-mop"]
+	path = submodules/closer-mop
+	url = https://github.com/pcostanza/closer-mop.git
+[submodule "submodules/trivia"]
+	path = submodules/trivia
+	url = https://github.com/guicho271828/trivia.git
+[submodule "submodules/trivial-gray-streams"]
+	path = submodules/trivial-gray-streams
+	url = https://github.com/trivial-gray-streams/trivial-gray-streams.git
+[submodule "submodules/trivial-types"]
+	path = submodules/trivial-types
+	url = https://github.com/m2ym/trivial-types.git
+[submodule "submodules/cl-ppcre"]
+	path = submodules/cl-ppcre
+	url = https://github.com/edicl/cl-ppcre.git
+[submodule "submodules/lisp-namespace"]
+	path = submodules/lisp-namespace
+	url = https://github.com/guicho271828/lisp-namespace
+[submodule "submodules/trivial-cltl2"]
+	path = submodules/trivial-cltl2
+	url = https://github.com/Zulu-Inuoe/trivial-cltl2
+[submodule "submodules/type-i"]
+	path = submodules/type-i
+	url = https://github.com/guicho271828/type-i
+[submodule "submodules/introspect-environment"]
+	path = submodules/introspect-environment
+	url = https://github.com/Bike/introspect-environment
+[submodule "submodules/optima"]
+	path = submodules/optima
+	url = https://github.com/m2ym/optima
+[submodule "submodules/inquisitor"]
+	path = submodules/inquisitor
+	url = https://github.com/t-sin/inquisitor
+[submodule "submodules/bordeaux-threads"]
+	path = submodules/bordeaux-threads
+	url = https://github.com/sionescu/bordeaux-threads
+[submodule "submodules/log4cl"]
+	path = submodules/log4cl
+	url = https://github.com/sharplispers/log4cl
+[submodule "submodules/split-sequence"]
+	path = submodules/split-sequence
+	url = https://github.com/sharplispers/split-sequence
+[submodule "submodules/yason"]
+	path = submodules/yason
+	url = https://github.com/hanshuebner/yason
+[submodule "submodules/str"]
+	path = submodules/str
+	url = https://github.com/vindarel/cl-str
+[submodule "submodules/dexador"]
+	path = submodules/dexador
+	url = https://github.com/fukamachi/dexador
+[submodule "submodules/cl-mustache"]
+	path = submodules/cl-mustache
+	url = https://github.com/kanru/cl-mustache
+[submodule "submodules/anaphora"]
+	path = submodules/anaphora
+	url = https://github.com/tokenrove/anaphora
+[submodule "submodules/fast-http"]
+	path = submodules/fast-http
+	url = https://github.com/fukamachi/fast-http
+[submodule "submodules/proc-parse"]
+	path = submodules/proc-parse
+	url = https://github.com/fukamachi/proc-parse
+[submodule "submodules/xsubseq"]
+	path = submodules/xsubseq
+	url = https://github.com/fukamachi/xsubseq
+[submodule "submodules/smart-buffer"]
+	path = submodules/smart-buffer
+	url = https://github.com/fukamachi/smart-buffer
+[submodule "submodules/cl-unicode"]
+	path = submodules/cl-unicode
+	url = https://github.com/edicl/cl-unicode
+[submodule "submodules/named-readtables"]
+	path = submodules/named-readtables
+	url = https://github.com/melisgl/named-readtables
+[submodule "submodules/quri"]
+	path = submodules/quri
+	url = https://github.com/fukamachi/quri
+[submodule "submodules/global-vars"]
+	path = submodules/global-vars
+	url = https://github.com/lmj/global-vars
+[submodule "submodules/alexandria-extra"]
+	path = submodules/alexandria-extra
+	url = https://gitlab.common-lisp.net/alexandria/alexandria.git
+[submodule "submodules/calispel"]
+	path = submodules/calispel
+	url = https://github.com/hawkir/calispel
+[submodule "submodules/cl-jpl-util"]
+	path = submodules/cl-jpl-util
+	url = https://github.com/hawkir/cl-jpl-util
+[submodule "submodules/trivial-garbage"]
+	path = submodules/trivial-garbage
+	url = https://github.com/trivial-garbage/trivial-garbage
+[submodule "submodules/flexi-streams"]
+	path = submodules/flexi-streams
+	url = https://github.com/edicl/flexi-streams
+[submodule "submodules/chunga"]
+	path = submodules/chunga
+	url = https://github.com/edicl/chunga
+[submodule "submodules/cl-cookie"]
+	path = submodules/cl-cookie
+	url = https://github.com/fukamachi/cl-cookie
+[submodule "submodules/cl-change-case"]
+	path = submodules/cl-change-case
+	url = https://github.com/rudolfochrist/cl-change-case
+[submodule "submodules/cl-containers"]
+	path = submodules/cl-containers
+	url = https://github.com/gwkkwg/cl-containers
+[submodule "submodules/metatilities-base"]
+	path = submodules/metatilities-base
+	url = https://github.com/gwkkwg/metatilities-base
+[submodule "submodules/cl-custom-hash-table"]
+	path = submodules/cl-custom-hash-table
+	url = https://github.com/metawilm/cl-custom-hash-table
+[submodule "submodules/cl-prevalence"]
+	path = submodules/cl-prevalence
+	url = https://github.com/40ants/cl-prevalence
+[submodule "submodules/s-sysdeps"]
+	path = submodules/s-sysdeps
+	url = https://github.com/svenvc/s-sysdeps
+[submodule "submodules/usocket"]
+	path = submodules/usocket
+	url = https://github.com/usocket/usocket/
+[submodule "submodules/cluffer"]
+	path = submodules/cluffer
+	url = https://github.com/robert-strandh/cluffer
+[submodule "submodules/Acclimation"]
+	path = submodules/Acclimation
+	url = https://github.com/robert-strandh/Acclimation
+[submodule "submodules/Clump"]
+	path = submodules/Clump
+	url = https://github.com/robert-strandh/Clump
+[submodule "submodules/local-time"]
+	path = submodules/local-time
+	url = https://github.com/dlowe-net/local-time
+[submodule "submodules/cl-utilities"]
+	path = submodules/cl-utilities
+	url = https://gitlab.common-lisp.net/cl-utilities/cl-utilities
+[submodule "submodules/idna"]
+	path = submodules/idna
+	url = https://github.com/antifuchs/idna
+[submodule "submodules/fast-io"]
+	path = submodules/fast-io
+	url = https://github.com/rpav/fast-io
+[submodule "submodules/static-vectors"]
+	path = submodules/static-vectors
+	url = https://github.com/sionescu/static-vectors
+[submodule "submodules/static-vectors-alt"]
+	path = submodules/static-vectors-alt
+	url = https://github.com/sionescu/static-vectors
+[submodule "submodules/trivial-mimes"]
+	path = submodules/trivial-mimes
+	url = https://github.com/Shinmera/trivial-mimes
+[submodule "submodules/chipz"]
+	path = submodules/chipz
+	url = https://github.com/sharplispers/chipz
+[submodule "submodules/cl-base64"]
+	path = submodules/cl-base64
+	url = https://gitlab.common-lisp.net/nyxt/cl-base64.git
+[submodule "submodules/cl+ssl"]
+	path = submodules/cl+ssl
+	url = https://github.com/cl-plus-ssl/cl-plus-ssl
+[submodule "submodules/bt-semaphore"]
+	path = submodules/bt-semaphore
+	url = https://github.com/r-moeritz/bt-semaphore
+[submodule "submodules/queues"]
+	path = submodules/queues
+	url = https://github.com/oconnore/queues
+[submodule "submodules/esrap"]
+	path = submodules/esrap
+	url = https://github.com/scymtym/esrap
+[submodule "submodules/trivial-with-current-source-form"]
+	path = submodules/trivial-with-current-source-form
+	url = https://github.com/scymtym/trivial-with-current-source-form
+[submodule "submodules/parse-number"]
+	path = submodules/parse-number
+	url = https://github.com/sharplispers/parse-number
+[submodule "submodules/cl-package-locks"]
+	path = submodules/cl-package-locks
+	url = https://github.com/elliottjohnson/cl-package-locks
+[submodule "submodules/dissect"]
+	path = submodules/dissect
+	url = https://github.com/Shinmera/dissect
+[submodule "submodules/chanl"]
+	path = submodules/chanl
+	url = https://github.com/zkat/chanl.git
+[submodule "submodules/vom"]
+	path = submodules/vom
+	url = https://github.com/orthecreedence/vom.git
+[submodule "submodules/trivial-timeout"]
+	path = submodules/trivial-timeout
+	url = https://github.com/hraban/trivial-timeout.git
+[submodule "submodules/mgl-pax"]
+	path = submodules/mgl-pax
+	url = https://github.com/melisgl/mgl-pax.git
+[submodule "submodules/trivial-utf-8"]
+	path = submodules/trivial-utf-8
+	url = https://gitlab.common-lisp.net/trivial-utf-8/trivial-utf-8.git
+[submodule "submodules/slime"]
+	path = submodules/slime
+	url = https://github.com/slime/slime.git
+[submodule "submodules/3bmd"]
+	path = submodules/3bmd
+	url = https://github.com/3b/3bmd.git
+[submodule "submodules/colorize"]
+	path = submodules/colorize
+	url = https://github.com/kingcons/colorize.git
+[submodule "submodules/html-entities"]
+	path = submodules/html-entities
+	url = https://github.com/BnMcGn/html-entities.git
+[submodule "submodules/html-encode"]
+	path = submodules/html-encode
+	url = https://github.com/timmydo/html-encode
+[submodule "submodules/lisp-preprocessor"]
+	path = submodules/lisp-preprocessor
+	url = https://github.com/cxxxr/lisp-preprocessor.git
+[submodule "submodules/trivial-ws"]
+	path = submodules/trivial-ws
+	url = https://github.com/ceramic/trivial-ws.git
+[submodule "submodules/hunchensocket"]
+	path = submodules/hunchensocket
+	url = https://github.com/joaotavora/hunchensocket.git
+[submodule "submodules/hunchentoot"]
+	path = submodules/hunchentoot
+	url = https://github.com/edicl/hunchentoot.git
+[submodule "submodules/cl-fad"]
+	path = submodules/cl-fad
+	url = https://github.com/edicl/cl-fad.git
+[submodule "submodules/md5"]
+	path = submodules/md5
+	url = https://github.com/pmai/md5.git
+[submodule "submodules/rfc2388"]
+	path = submodules/rfc2388
+	url = https://github.com/jdz/rfc2388
+[submodule "submodules/trivial-backtrace"]
+	path = submodules/trivial-backtrace
+	url = https://github.com/hraban/trivial-backtrace.git
+[submodule "submodules/sha1"]
+	path = submodules/sha1
+	url = https://github.com/massung/sha1.git
+[submodule "submodules/trivial-open-browser"]
+	path = submodules/trivial-open-browser
+	url = https://github.com/eudoxia0/trivial-open-browser.git
+[submodule "submodules/cl-frugal-uuid"]
+	path = submodules/cl-frugal-uuid
+	url = https://github.com/ak-coram/cl-frugal-uuid.git
+[submodule "submodules/event-emitter"]
+	path = submodules/event-emitter
+	url = https://github.com/fukamachi/event-emitter.git
+[submodule "submodules/websocket-driver"]
+	path = submodules/websocket-driver
+	url = https://github.com/fukamachi/websocket-driver.git
+[submodule "submodules/fast-websocket"]
+	path = submodules/fast-websocket
+	url = https://github.com/fukamachi/fast-websocket.git
+[submodule "submodules/clack"]
+	path = submodules/clack
+	url = https://github.com/fukamachi/clack.git
+[submodule "submodules/lack"]
+	path = submodules/lack
+	url = https://github.com/fukamachi/lack.git
+[submodule "submodules/ironclad"]
+	path = submodules/ironclad
+	url = https://github.com/sharplispers/ironclad.git
+[submodule "submodules/command-line-arguments"]
+	path = submodules/command-line-arguments
+	url = https://gitlab.common-lisp.net/qitab/command-line-arguments.git
