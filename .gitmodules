@@ -322,3 +322,18 @@
 [submodule "submodules/command-line-arguments"]
 	path = submodules/command-line-arguments
 	url = https://gitlab.common-lisp.net/qitab/command-line-arguments.git
+[submodule "submodules/cl-charms"]
+	path = submodules/cl-charms
+	url = https://github.com/HiTECNOLOGYs/cl-charms
+[submodule "submodules/cl-setlocale"]
+	path = submodules/cl-setlocale
+	url = https://github.com/shamazmazum/cl-setlocale.git
+[submodule "submodules/defpackage-plus"]
+	path = submodules/defpackage-plus
+	url = https://github.com/rpav/defpackage-plus
+[submodule "submodules/cl-autowrap"]
+	path = submodules/cl-autowrap
+	url = https://github.com/rpav/cl-autowrap.git
+[submodule "submodules/trivial-channels"]
+	path = submodules/trivial-channels
+	url = https://github.com/rpav/trivial-channels.git

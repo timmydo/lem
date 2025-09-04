@@ -1,36 +1,29 @@
-LISP ?= sbcl --dynamic-space-size 4GiB --noinform --no-sysinit --no-userinit
+MAKEFILE_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+LISP ?= env CL_SOURCE_REGISTRY="$(MAKEFILE_DIR)/:" sbcl --dynamic-space-size 4GiB --noinform --no-sysinit --no-userinit --eval '(require "asdf")'
+
+.PHONY: run
+INIT_AT_BUILD ?= --eval '(lem:init-at-build-time)'
+SLAD ?= --eval '(sb-ext:save-lisp-and-die "lem" :toplevel (function lem:main) :executable t)'
 PREFIX ?= /usr/local
 VARIANT ?= sdl2
 
 ncurses:
-	qlot install
-	$(LISP) --load .qlot/setup.lisp \
-		--load scripts/build-ncurses.lisp
+	$(LISP) --non-interactive --eval '(asdf:load-system :lem-ncurses)' $(INIT_AT_BUILD) $(SLAD)
 
 sdl2:
-	qlot install
-	$(LISP) --load .qlot/setup.lisp \
-		--load scripts/build-sdl2.lisp
+	$(LISP) --non-interactive --eval '(asdf:load-system :lem-sdl2)' $(INIT_AT_BUILD) $(SLAD)
 
 sdl2-ncurses:
-	qlot install
-	$(LISP) --load .qlot/setup.lisp \
-		--load scripts/build-sdl2-ncurses.lisp
+	$(LISP) --non-interactive --eval '(asdf:load-system :lem-sdl2)' --eval '(asdf:load-system :lem-ncurses)' $(INIT_AT_BUILD) $(SLAD)
 
 server:
-	qlot install
-	$(LISP) --load .qlot/setup.lisp \
-		--load scripts/build-server.lisp
+	$(LISP) --non-interactive --eval '(asdf:load-system :lem-server)' --eval '(asdf:load-system :lem-ncurses)' $(INIT_AT_BUILD) $(SLAD)
 
 client:
-	qlot install
-	$(LISP) --load .qlot/setup.lisp \
-		--load scripts/build-client.lisp
+	$(LISP) --non-interactive --eval '(sb-int:set-floating-point-modes :traps nil)' --eval '(asdf:load-system :lem-webview)' $(INIT_AT_BUILD) --eval '(sb-ext:save-lisp-and-die "lem" :toplevel (function lem-webview:webview-main) :executable t)'
 
 webview:
-	qlot install
-	$(LISP) --load .qlot/setup.lisp \
-		--load scripts/build-webview.lisp
+	$(LISP) --non-interactive --eval '(sb-int:set-floating-point-modes :traps nil)' --eval '(asdf:load-system :lem-webview)' $(INIT_AT_BUILD) --eval '(sb-ext:save-lisp-and-die "lem" :toplevel (function lem-webview:main) :executable t)'
 
 lem: sdl2
 
@@ -57,7 +50,7 @@ install-ncurses:
 
 install-sdl2-ncurses:
 	$(MAKE) install VARIANT=sdl2-ncurses
-	
+
 test:
 	qlot install
 	.qlot/bin/rove lem-tests.asd
@@ -122,6 +115,14 @@ lint:
 	.qlot/bin/sblint extensions/xml-mode/lem-xml-mode.asd
 	.qlot/bin/sblint extensions/yaml-mode/lem-yaml-mode.asd
 	.qlot/bin/sblint extensions/ruby-mode/lem-ruby-mode.asd
+
+run:
+	env CL_SOURCE_REGISTRY="$(MAKEFILE_DIR)//" \
+		sbcl --noinform --no-userinit --no-sysinit --non-interactive \
+		--eval '(require "asdf")' \
+		--eval '(sb-int:set-floating-point-modes :traps nil)' \
+		--eval "(asdf:load-system :lem-webview)" \
+		--eval '(lem-webview:main)'
 
 AppImage:
 	docker buildx build -f docker/Dockerfile-AppImage --progress=plain --target artifact --output type=local,dest=./artifacts .
